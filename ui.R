@@ -65,13 +65,13 @@ shinyUI(fluidPage(
                          #downloadButton('downloadData', 'Download sample input image file (works only in browsers)'),
 			 img(src = "test-text.png"),	 
 				 hr(),
-                         img(src = "data/the-nutritional-label.jpg"),	 
+                         img(src = "the-nutritional-label.jpg"),	 
 				 hr(),
-			 img(src = "data/ocr-test.jpg"),
+			 img(src = "ocr-test.jpg"),
 				 hr(),
-			 img(src = "data/varying-text.png"),	 
+			 img(src = "varying-text.png"),	 
 				 hr(),
-		 	 img(src = "data/handwritten letters.png"),
+		 	 img(src = "handwritten letters.png"),
 			 br()
                 ),
 
