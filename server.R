@@ -113,8 +113,11 @@ shinyServer(function(input, output, session) {
     output$downloadData <- downloadHandler(
          filename = function() { "test-text.png" },
          content = function() {
-         download.file("https://github.com/sudhir-voleti/ocr-shinyapp/blob/master/data/test-text.png", 
-                       destfile=file.choose())
+         png("https://github.com/sudhir-voleti/ocr-shinyapp/blob/master/data/test-text.png", width = 980, height = 400, units = "px", pointsize = 12,
+          bg = "white", res = NA)
+      
+          dev.off()
+           
                                    }
     ) # downloadHandler() closes
     
