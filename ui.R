@@ -57,8 +57,9 @@ shinyUI(fluidPage(
                          br(),
                          p("This app require one data input from the user, viz. an image file containing printed text. Click on the Browse (in left side-bar panel) and upload the input file."),
                          p("Note that right now the app works only on standard image files and has an upper limit of 5MB. The clearer the image, the bigger the font, the greater the contrast (ideally white background and black font), the better the results' quality."),
-                         br(),
+                         br()),
 
+	      tabPanel("Sample Images for Download",
                          #h4(p("Download and save Sample Input File")),
                          #br(),
                          #downloadButton('downloadData', 'Download sample input image file (works only in browsers)'),
