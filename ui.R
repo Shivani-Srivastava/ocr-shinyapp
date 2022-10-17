@@ -72,6 +72,15 @@ shinyUI(fluidPage(
 			 img(src = "varying-text.jpg"),	 
 				 hr(),
 		 	 img(src = "handwritten-letters.jpg"),
+		       
+				 hr(),
+		 	 img(src = "beer article.jpg.JPG"),
+		       
+				 hr(),
+		 	 img(src = "handwritten digits.png"),
+		       
+				 hr(),
+		 	 img(src = "news article column.PNG"),
 			 br()
                 ),
 
