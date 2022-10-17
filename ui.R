@@ -59,18 +59,18 @@ shinyUI(fluidPage(
                          p("Note that right now the app works only on standard image files and has an upper limit of 5MB. The clearer the image, the bigger the font, the greater the contrast (ideally white background and black font), the better the results' quality."),
                          br(),
 
-                         h4(p("Download and save Sample Input File")),
-                         br(),
+                         #h4(p("Download and save Sample Input File")),
+                         #br(),
                          #downloadButton('downloadData', 'Download sample input image file (works only in browsers)'),
 			 img(src = "test-text.png"),	 
 				 hr(),
                          img(src = "data/beer article.jpg.JPG"),	 
 				 hr(),
-			 img(src = "data\news article column.PNG"),
+			 img(src = "data/news article column.PNG"),
 				 hr(),
-			 img(src = "handwritten digits.png"),	 
+			 img(src = "data/handwritten digits.png"),	 
 				 hr(),
-		 	 img(src = "handwritten letters.png"),
+		 	 img(src = "data/handwritten letters.png"),
 			 br()
                 ),
 
