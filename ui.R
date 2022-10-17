@@ -69,9 +69,9 @@ shinyUI(fluidPage(
 				 hr(),
 			 img(src = "ocr-test.jpg"),
 				 hr(),
-			 img(src = "varying-text.png"),	 
+			 img(src = "varying-text.jpg"),	 
 				 hr(),
-		 	 img(src = "handwritten-letters.png"),
+		 	 img(src = "handwritten-letters.jpg"),
 			 br()
                 ),
 
