@@ -61,9 +61,17 @@ shinyUI(fluidPage(
 
                          h4(p("Download and save Sample Input File")),
                          br(),
-                         downloadButton('downloadData', 'Download sample input image file (works only in browsers)'),
+                         #downloadButton('downloadData', 'Download sample input image file (works only in browsers)'),
 			 img(src = "test-text.png"),	 
-                         br()
+				 hr(),
+                         img(src = "beer article.jpg.JPG"),	 
+				 hr(),
+			 img(src = "news article column.PNG"),
+				 hr(),
+			 img(src = "handwritten digits.png"),	 
+				 hr(),
+		 	 img(src = "handwritten letters.png"),
+			 br()
                 ),
 
         
