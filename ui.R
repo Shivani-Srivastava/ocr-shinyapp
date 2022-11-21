@@ -63,25 +63,25 @@ shinyUI(fluidPage(
                          #h4(p("Download and save Sample Input File")),
                          #br(),
                          #downloadButton('downloadData', 'Download sample input image file (works only in browsers)'),
-			 img(src = "test-text.png"), br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/test-text.png?raw=true'),
+			 img(src = "test-text.png"), br(), br(), p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/test-text.png?raw=true'),
 				 hr(),
-                         img(src = "the-nutritional-label.jpg"), br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/the-nutritional-label.jpg?raw=true'),
+                         img(src = "the-nutritional-label.jpg"), br(), br(), p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/the-nutritional-label.jpg?raw=true'),
 				 hr(),
 			 #img(src = "ocr-test.jpg"),
 			#	 hr(),
-			 img(src = "varying-text.jpg"), br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/varying-text.png?raw=true'),
+			 img(src = "varying-text.jpg"), br(), br(), p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/varying-text.png?raw=true'),
 				 	 
 				 hr(),
-		 	 img(src = "handwritten-letters.jpg"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/handwritten%20letters.png?raw=true'),
+		 	 img(src = "handwritten-letters.jpg"),br(), br(), p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/handwritten%20letters.png?raw=true'),
 				 
 		       		 hr(),
-		 	 img(src = "beer article.jpg.JPG"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/beer%20article.jpg.JPG?raw=true'),
+		 	 img(src = "beer article.jpg.JPG"),br(), br(), p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/beer%20article.jpg.JPG?raw=true'),
 				 		       
 				 hr(),
-		 	 img(src = "handwritten digits.png"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/handwritten%20digits.png?raw=true'),
+		 	 img(src = "handwritten digits.png"),br(), br(), p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/handwritten%20digits.png?raw=true'),
 				 		       
 				 hr(),
-		 	 img(src = "news article column.PNG"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/news%20article%20column.PNG?raw=true'),
+		 	 img(src = "news article column.PNG"),br(), br(), p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/news%20article%20column.PNG?raw=true'),
 				 
 			 br()
                 ),
