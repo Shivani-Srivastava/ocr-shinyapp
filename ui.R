@@ -63,24 +63,26 @@ shinyUI(fluidPage(
                          #h4(p("Download and save Sample Input File")),
                          #br(),
                          #downloadButton('downloadData', 'Download sample input image file (works only in browsers)'),
-			 img(src = "test-text.png"),	 
+			 img(src = "test-text.png"), br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/test-text.png?raw=true'),
 				 hr(),
-                         img(src = "the-nutritional-label.jpg"),	 
+                         img(src = "the-nutritional-label.jpg"), br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/the-nutritional-label.jpg?raw=true'),
 				 hr(),
 			 #img(src = "ocr-test.jpg"),
 			#	 hr(),
-			 img(src = "varying-text.jpg"),	 
+			 img(src = "varying-text.jpg"), br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/varying-text.png?raw=true'),
+				 	 
 				 hr(),
-		 	 img(src = "handwritten-letters.jpg"),
-		       
+		 	 img(src = "handwritten-letters.jpg"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/handwritten%20letters.png?raw=true'),
+				 
+		       		 hr(),
+		 	 img(src = "beer article.jpg.JPG"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/beer%20article.jpg.JPG?raw=true'),
+				 		       
 				 hr(),
-		 	 img(src = "beer article.jpg.JPG"),
-		       
+		 	 img(src = "handwritten digits.png"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/handwritten%20digits.png?raw=true'),
+				 		       
 				 hr(),
-		 	 img(src = "handwritten digits.png"),
-		       
-				 hr(),
-		 	 img(src = "news article column.PNG"),
+		 	 img(src = "news article column.PNG"),br(), br(), ,p('https://github.com/sudhir-voleti/sample-data-sets/blob/master/news%20article%20column.PNG?raw=true'),
+				 
 			 br()
                 ),
 
